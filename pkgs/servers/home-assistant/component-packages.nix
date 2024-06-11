@@ -2,7 +2,7 @@
 # Do not edit!
 
 {
-  version = "2024.6.1";
+  version = "2024.6.2";
   components = {
     "3_day_blinds" = ps: with ps; [
     ];
@@ -4762,7 +4762,7 @@
       unifiled
     ];
     "unifiprotect" = ps: with ps; [
-      pyunifiprotect
+      uiprotect
       unifi-discovery
     ];
     "universal" = ps: with ps; [
